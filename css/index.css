@@ -4,75 +4,46 @@
     padding: 0;
 color: white;
 }
-
-.overlayes {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-  border-radus: 10px;
-}
-.overlayes {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-  border-radus: 10px;
-}
-.container:hover .overlayes {
-  opacity: 0.5;
-}
-
-.imageWrapper {
+.containers {
   position: relative;
+  width: 50%;
 }
-
-.overlays {
-  position: absolute; 
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-
-.overlays_1 {
-  left: 0;
+.overlay {
+  position: absolute;
   top: 0;
-  padding: .5rem;
-  margin: 4px;
-  background: black;
-  opacity: 0.8;
-  text-color: white;
-  border:1px solid grey;
-  border-radius: 10px;
-}
-
-
-#overlay {
-  position: fixed; /* Sit on top of the page content */
- width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  height: 98%;
+  width: 101%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0a1a2b;
+border:2px solid white;
+
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-#overlay {
-  position: fixed; /* Sit on top of the page content */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.containers:hover .overlay {
+  opacity: 0.75;
 }
+
+
 
 .resize {
 height: 200px;
