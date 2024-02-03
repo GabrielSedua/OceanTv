@@ -8,6 +8,16 @@ color: white;
   position: relative;
   width: 50%;
 }
+.container:hover .overlays {
+  opacity: 0.75;
+}
+
+.imgA1 {
+  z-index: 1;
+}
+.imgB1 {
+
+}
 .text {
   color: white;
   font-size: 20px;
@@ -19,6 +29,7 @@ color: white;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+/* #0a1a2b */
 .overlay {
   position: absolute;
   top: 0;
@@ -29,18 +40,41 @@ color: white;
   width: 101%;
   opacity: 0;
   transition: .5s ease;
+  background-color: #050608f7;
+border:2px solid #403862d1;
+
+}
+.overlayss {
+  position: absolute;
+  top: 100;
+  right: 100;
+  opacity: 0;
+  transition: .50s ease;
+  
+}
+.container:hover .overlayss {
+  opacity: 0.75;
+
+
+}
+.overlays {
+  position: absolute;
+  top: 100;
+  right: 100;
+  opacity: 0;
+  transition: .50s ease;
   background-color: #0a1a2b;
-border:2px solid white;
+
 
 }
 .image {
   display: block;
-  width: 100%;
+  width: 1%;
   height: auto;
 }
 
 .containers:hover .overlay {
-  opacity: 0.75;
+  opacity: 0.77;
 }
 
 
@@ -49,12 +83,12 @@ border:2px solid white;
 height: 200px;
 border-radius: 3px;
 border-style: outset;
-border:2px solid #403862d1;
+border:2px solid #0e1318f7;
 
 }
 
 .outline {
-border:1px solid #403862d1;
+border:1px solid black;
 border-radius: 3px;
 }
 
@@ -146,7 +180,7 @@ hr {
     margin-left: 11px;
     margin-right: 11px;
     margin-top: 20px;
-background-color: #403862d1; height: 1px; border: 0;
+background-color: #181d27f7; height: 1px; border: 0;
 }
 
 
