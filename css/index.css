@@ -77,7 +77,7 @@ color: white;
 .resize {
 height: 200px;
 border-radius: 3px;
-border-style: inline;
+border-style: outset;
 border:2px solid #403862d1;
 
 }
