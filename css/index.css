@@ -76,7 +76,7 @@ color: white;
 
 .resize {
 height: 200px;
-border-radius: 10px;
+border-radius: 3px;
 border-style: inline;
 border:2px solid #403862d1;
 
@@ -84,6 +84,7 @@ border:2px solid #403862d1;
 
 .outline {
 border:1px solid #403862d1;
+border-radius: 3px;
 }
 
 #logo {
