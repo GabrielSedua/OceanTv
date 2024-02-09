@@ -23,12 +23,12 @@ color: #ffffff;
 .text {
 transform: rotate(-90deg);
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   position: sticky;
   top: 35%;
-  left: 5%;
+  left: 50%;
 min-height: 90px;
-min-width: 100px;
+min-width: 150px;
   text-align: left;
 }
 /* #0a1a2b */
