@@ -182,7 +182,13 @@ hr {
     margin-left: 11px;
     margin-right: 11px;
     margin-top: 20px;
-background-color: black; height: 1px; border: 0;
+background-color: #072646fa; height: 1px; border: 0;
+}
+.hr2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+background-color: white; height: 1px; border: 0;
 }
 
 
