@@ -3,10 +3,12 @@
     margin:0;
     padding: 0;
 color: white;
+
 }
 .containers {
   position: relative;
   width: 50%;
+
 }
 .container:hover .overlays {
   opacity: 0.75;
@@ -19,15 +21,15 @@ color: white;
 
 }
 .text {
+transform: rotate(-90deg);
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  font-size: 12px;
+  position: sticky;
+  top: 35%;
+  left: 5%;
+min-height: 90px;
+min-width: 100px;
+  text-align: left;
 }
 /* #0a1a2b */
 .overlay {
@@ -36,8 +38,8 @@ color: white;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 98%;
-  width: 60%;
+  height: 100%;
+  width: 30%;
   opacity: 0;
   transition: .5s ease;
   background-color: #2a3242f7;
@@ -74,7 +76,7 @@ border:2px solid #403862d1;
 }
 
 .containers:hover .overlay {
-  opacity: 0.77;
+  opacity: 0.9;
 }
 
 
@@ -105,9 +107,9 @@ COLOR: LIGHTBLUE;
 FONT-SIZE: 50PX;
 }
 
-
+/**/
 #mankindP{
-    margin-left: 16px;
+    
     color: grey;
     font-size: 16px;
     margin-bottom: 20px;
@@ -180,7 +182,7 @@ hr {
     margin-left: 11px;
     margin-right: 11px;
     margin-top: 20px;
-background-color: #181d27f7; height: 1px; border: 0;
+background-color: black; height: 1px; border: 0;
 }
 
 
@@ -212,7 +214,7 @@ background-color: #181d27f7; height: 1px; border: 0;
 }
 
 #main2>h3 {
-    margin-left: 16px;
+    text-align: center;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -426,16 +428,28 @@ background-color: #181d27f7; height: 1px; border: 0;
 text-align:center;
 position: sticky;
 }
+#bannerSections {
+    width: auto;
+text-align:center;
+position: sticky;
+}
 #bannerSection>img {
     width: 100%;
     border-radius: none;
 
 }
+#bannerSections>img {
+    width: 3%;
+    height: 3%;
+    border-radius: none;
+
+}
+
 
 /* start of sifi section */
 
 #sifiSection {
-    width: auto;
+    width: 100%;
 text-align:center;
 position: sticky;
 }
