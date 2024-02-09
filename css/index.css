@@ -90,7 +90,7 @@ border:2px solid #00a2ff61;
 }
 
 .outline {
-border:1px solid  #00a2ff61;
+border:1px solid  #ffffff30;
 border-radius: 3px;
 }
 
@@ -182,13 +182,7 @@ hr {
     margin-left: 11px;
     margin-right: 11px;
     margin-top: 20px;
-background-color: #072646fa; height: 1px; border: 0;
-}
-.hr2 {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 20px;
-background-color: white; height: 1px; border: 0;
+background-color: #ffffff30; height: 1px; border: 0;
 }
 
 
