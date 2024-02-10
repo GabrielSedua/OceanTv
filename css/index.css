@@ -12,7 +12,7 @@ color: #0bb6ce;
   background-position: center;
   color: #fff;
 border:1px solid #4f4b57;
-width: auto;
+width: 100%;
 border-radius: 1px;
 }
 
@@ -113,7 +113,7 @@ border:2px solid #ffffff30;
 
 .outline {
 border:1px solid  #ffffff30;
-border-radius: 3px;
+border-radius: 0px;
 }
 
 #logo {
@@ -456,7 +456,7 @@ text-align:center;
 position: sticky;
 }
 #bannerSection>img {
-    width: 99.9%;
+    width: 100%;
     border-radius: none;
 
 }
