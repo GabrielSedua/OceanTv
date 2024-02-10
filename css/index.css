@@ -5,6 +5,27 @@
 color: #ffffff;
 
 }
+
+.bg_image_4 {
+  background-colour: #266165e0;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+border:2px solid #4f4b57;
+width: auto;
+}
+
+.content_4 {
+  position: relative;
+}
+
+.content_4::after {
+  content: '';
+  position: absolute;
+  background: #074f57;
+  inset: 0;
+  z-index: -1;
+}
 .containers {
   position: relative;
   width: 50%;
@@ -42,7 +63,7 @@ min-width: 150px;
   width: 30%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #4f4b57d8;
+  background-color: #074f57;
 border:2px solid #4f4b57;
 
 }
@@ -83,7 +104,7 @@ border:2px solid #4f4b57;
 
 .resize {
 height: 200px;
-border-radius: 3px;
+border-radius: 2px;
 border-style: outset;
 border:2px solid #ffffff30;
 
@@ -434,7 +455,7 @@ text-align:center;
 position: sticky;
 }
 #bannerSection>img {
-    width: 100%;
+    width: 99.9%;
     border-radius: none;
 
 }
