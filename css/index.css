@@ -11,9 +11,11 @@ color: #ffffff;
   background-size: cover;
   background-position: center;
   color: #fff;
-border:1px solid #4f4b57;
+border:0px solid #4f4b57;
 width: 100%;
 border-radius: 1px;
+margin-bottom: 10px;
+margin-top: -20px;
 }
 
 .content_4 {
@@ -24,7 +26,7 @@ margin: 2px;
 .content_4::after {
   content: '';
   position: absolute;
-  background: #222d3d;
+  background: #0c1016fa;
   inset: 0;
   z-index: -1;
 }
@@ -113,7 +115,7 @@ border:2px solid #ffffff30;
 }
 
 .outline {
-border:1px solid  #ffffff30;
+border:0px solid  #ffffff30;
 border-radius: 0px;
 }
 
