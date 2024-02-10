@@ -23,10 +23,10 @@ color: #ffffff;
 .text {
 transform: rotate(-90deg);
   color: white;
-  font-size: 10px;
-  position: sticky;
+  font-size: 12px;
+  position: relative;
   top: 35%;
-  left: 50%;
+right: 20px;
 min-height: 90px;
 min-width: 150px;
   text-align: left;
