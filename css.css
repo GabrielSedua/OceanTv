@@ -1,6 +1,9 @@
 /*#0a1a2b #0d0f14fa #050608f7*/
 body {
   font-family: "Lato", sans-serif;
-  background: #0e121a;
+  background: linear-gradient(to top, #111720eb 0%, #0e121a 100%);
 
 }
+
+html {
+background: #11171f;}
