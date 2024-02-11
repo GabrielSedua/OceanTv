@@ -2,7 +2,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:0;
     padding: 0;
-color: #b9d49473;
+color: #ffffff;
 
 }
 
@@ -46,15 +46,15 @@ margin: 2px;
 
 }
 .text {
-transform: rotate(-90deg);
+
   color: white;
   font-size: 12px;
   position: relative;
-  top: 35%;
-right: 20px;
+  top: 15%;
 min-height: 90px;
-min-width: 150px;
+min-width: 10px;
   text-align: left;
+margin: 10px;
 }
 /* #0a1a2b */
 .overlay {
@@ -64,7 +64,7 @@ min-width: 150px;
   left: 0;
   right: 0;
   height: auto;
-  width: 35%;
+  width: 54%;
   opacity: 0;
   transition: .5s ease;
   background-color: #0c1016ed;
@@ -73,15 +73,12 @@ border:2px solid #4f4b57;
 }
 .overlayss {
   position: absolute;
-  top: 100;
-  right: 100;
-  opacity: 0;
-  transition: .50s ease;
+  bottom: 45px;
+  right: 00;
+  opacity: 0.8;
+max-height: 150px;
   
 }
-.container:hover .overlayss {
-  opacity: 0.75;
-
 
 }
 .overlays {
