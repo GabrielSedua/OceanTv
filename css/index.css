@@ -57,7 +57,7 @@ min-height: 90px;
 max-width: 50px;
   text-align: left;
 margin: 20px;
-margin-right: 40px;
+margin-right: -webkit-fit-content;
 margin-left: 20px;
 }
 /* #0a1a2b */
