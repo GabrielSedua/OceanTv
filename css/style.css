@@ -4,6 +4,15 @@
     padding: 0px 40px;
 	
 }
+
+
+@media (max-width: 991px)
+.mbr-navbar--auto-collapse .mbr-navbar__menu-box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
 /* navigation */
 .nav{
     z-index: 999!important;
@@ -18,7 +27,7 @@
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #0b0c10;
+    background-color: #0f131b;
     margin: 0;
     padding: 0;
     top: 0;

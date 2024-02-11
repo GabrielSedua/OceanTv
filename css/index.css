@@ -72,13 +72,13 @@ margin-left: 20px;
   opacity: 0;
   transition: .5s ease;
   background-color: #0c1016ed;
-border:1px solid #09b2cb;
+border-right:1px solid #09b2cb;
 
 }
 .overlayss {
   position: absolute;
   bottom: 40px;
-  right: 00;
+  right: 0;
   opacity: 0.8;
 max-height: 150px;
   
