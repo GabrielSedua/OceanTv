@@ -12,7 +12,7 @@ color: #ffffff;
   background-size: cover;
   background-position: center;
   color: #fff;
-border:0px solid #4f4b57;
+
 width: 100%;
 border-radius: 1px;
 margin-bottom: 10px;
@@ -22,7 +22,7 @@ margin-top: -20px;
 .content_4 {
   position: relative;
 margin: 2px;
-margin-top: -40px;
+margin-top: -43px;
 }
 
 .content_4::after {
@@ -207,7 +207,7 @@ hr {
     margin-left: 11px;
     margin-right: 11px;
     margin-top: 20px;
-background-color: #09b2cb; height: 1px; border: 0;
+background-color: #1c3a4b; height: 1px; border: 0;
 }
 
 
