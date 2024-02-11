@@ -72,7 +72,7 @@ margin-left: 20px;
   opacity: 0;
   transition: .5s ease;
   background-color: #0c1016ed;
-border:2px solid #4f4b57;
+border:1px solid #09b2cb;
 
 }
 .overlayss {
@@ -111,13 +111,12 @@ max-height: 150px;
 height: 200px;
 border-radius: 2px;
 border-style: outset;
-border:2px solid #ffffff30;
+border:1px solid #09b2cb;
+
 
 }
 
 .outline {
-border:0px solid  #ffffff30;
-border-radius: 0px;
 }
 
 #logo {
@@ -208,7 +207,7 @@ hr {
     margin-left: 11px;
     margin-right: 11px;
     margin-top: 20px;
-background-color: #ffffff30; height: 1px; border: 0;
+background-color: #09b2cb; height: 1px; border: 0;
 }
 
 
