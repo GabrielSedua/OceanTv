@@ -54,9 +54,10 @@ margin-top: -40px;
   position: relative;
   top: 15%;
 min-height: 90px;
-min-width: 10px;
+max-width: 50px;
   text-align: left;
-margin: 10px;
+margin: 20px;
+margin-left: auto;
 }
 /* #0a1a2b */
 .overlay {
@@ -66,7 +67,7 @@ margin: 10px;
   left: 0;
   right: 0;
   height: auto;
-  width: 53%;
+  min-width: 53%;
   opacity: 0;
   transition: .5s ease;
   background-color: #0c1016ed;
