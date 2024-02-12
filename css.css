@@ -11,7 +11,7 @@ background: #101216;}
 /* Style the button and place it in the middle of the container/image */
 .containery .btn {
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -26,4 +26,8 @@ background: #101216;}
 
 .containery .btn:hover {
   background-color: black;
+}
+
+.border {
+border: 2px black solid;
 }
