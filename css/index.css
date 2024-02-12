@@ -77,10 +77,10 @@ border-right:1px solid #0f131b;
 }
 .overlayss {
   position: absolute;
-  bottom: 40px;
+  bottom: 68px;
   right: 0;
   opacity: 0.8;
-max-height: 150px;
+max-height: 120px;
   
 }
 
@@ -115,6 +115,10 @@ border-radius: 2px;
 }
 
 .outline {
+border-top: 2px solid white;
+border-left: 1px solid white;
+border-right: 1px solid white;
+
 }
 
 #logo {
