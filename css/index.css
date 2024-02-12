@@ -115,10 +115,9 @@ border-radius: 2px;
 }
 
 .outline {
-border-top: 2px solid white;
-border-left: 1px solid white;
-border-right: 1px solid white;
 
+-webkit-mask:url(https://i.ibb.co/sFjJtNN/PkKi6.png) center/contain no-repeat;
+  max-width:100%;
 }
 
 #logo {
