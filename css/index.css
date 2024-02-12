@@ -118,6 +118,12 @@ border-radius: 2px;
 
 -webkit-mask:url(https://i.ibb.co/sFjJtNN/PkKi6.png) center/contain no-repeat;
   max-width:100%;
+
+}
+
+.mask1 {
+  -webkit-mask-image: linear-gradient(transparent, blue, transparent);
+  mask-image: linear-gradient(transparent, blue, transparent);
 }
 
 #logo {
