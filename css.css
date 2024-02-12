@@ -7,3 +7,23 @@ body {
 
 html {
 background: #101216;}
+
+/* Style the button and place it in the middle of the container/image */
+.containery .btn {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #101216;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.containery .btn:hover {
+  background-color: black;
+}

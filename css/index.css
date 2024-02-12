@@ -72,7 +72,7 @@ margin-left: 20px;
   opacity: 0;
   transition: .5s ease;
   background-color: #0c1016ed;
-border-right:1px solid #09b2cb;
+border-right:1px solid #0f131b;
 
 }
 .overlayss {
@@ -110,8 +110,6 @@ max-height: 150px;
 .resize {
 height: 200px;
 border-radius: 2px;
-border-style: outset;
-border:1px solid #09b2cb;
 
 
 }
