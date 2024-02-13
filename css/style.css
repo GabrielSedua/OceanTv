@@ -2,9 +2,16 @@
 .container {
     margin-top: 52px;
     padding: 0px 40px;
-	
+    border-left: 1px black solid;
+border-right: 1px black solid;
 }
 
+/*   padding: 0px 50px;*/
+.containere {
+    margin-top: 52px;
+    padding: 0px 40px;
+
+}
 
 @media (max-width: 991px)
 .mbr-navbar--auto-collapse .mbr-navbar__menu-box {
