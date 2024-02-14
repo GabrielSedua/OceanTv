@@ -32,3 +32,62 @@ background: #101216;}
 border: 2px black solid;
 }
 
+
+
+
+
+
+
+
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 65%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 15%;
+margin-top: 30px;
+  font-size: 18px;
+  border: 1px solid black;
+background: #101318;
+}
+
+#myMenu li{
+  display:none;
+}
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#myMenu li a:hover {
+  background-color: #10151e;
+}

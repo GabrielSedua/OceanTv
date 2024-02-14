@@ -88,8 +88,13 @@ li a {
     text-decoration: none;
 }
 
-li>a>img {
+li>a>em {
     width: 53px;
+    padding-left: 24px;
+}
+
+li>a>img {
+    width: auto;
     padding-left: 24px;
 }
 
