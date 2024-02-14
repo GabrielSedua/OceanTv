@@ -63,7 +63,7 @@ border: 2px black solid;
 
 /* Style the search box */
 #mySearch {
-  width: 15%;
+  min-width: 10%;
 margin-top: 30px;
   font-size: 18px;
   border: 1px solid black;
