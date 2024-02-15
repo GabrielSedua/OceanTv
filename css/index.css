@@ -477,6 +477,17 @@ position: sticky;
     border-radius: none;
 
 }
+/* start of banner section */
+#bannerSectiony {
+    width: auto;
+text-align:center;
+position: relative;
+}
+
+#bannerSectiony>img {
+    width: 100%;
+    border-radius: none;
+}
 
 
 /* start of sifi section */
