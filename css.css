@@ -21,8 +21,8 @@ background: #101216;}
   border: none;
   cursor: pointer;
   border-radius: 5px;
-background-color: white;
-color: black;
+background-color: #11161f;
+color: white;
 }
 .containery .log {
   position: absolute;
@@ -45,8 +45,8 @@ max-width: 40px;
 
 }
 .containery .btn:hover {
-background-color: grey;
-  color: white;
+background-color: white;
+  color: #11161f;
   
 }
 
