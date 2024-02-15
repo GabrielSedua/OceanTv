@@ -1,12 +1,6 @@
-/*#0a1a2b #0d0f14fa #050608f7*/
-body {
-  font-family: "Lato", sans-serif;
-  background: linear-gradient(to top, #101216 0%, #111720eb 50%, #101216 100%);
-
-}
 
 html {
-background: #101216;}
+background: #11171f;}
 
 /* Style the button and place it in the middle of the container/image */
 .containery .btn {
@@ -86,7 +80,6 @@ border: 2px black solid;
 /* Style the search box */
 #mySearch {
   min-width: 10%;
-margin-top: 30px;
   font-size: 16px;
   padding: 4px;
   border: 1px solid #09b2cb;
@@ -129,6 +122,8 @@ margin-top: 4px;
 margin-bottom: 4px;
 }
 
-html {
-zoom: 105%;
+
+
+.span {
+colour: black;
 }
