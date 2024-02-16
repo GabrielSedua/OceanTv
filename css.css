@@ -1,6 +1,6 @@
 
 html {
-background: #11171f;}
+background: #0e121a;}
 
 /* Style the button and place it in the middle of the container/image */
 .containery .btn {
@@ -15,7 +15,7 @@ background: #11171f;}
   border: none;
   cursor: pointer;
   border-radius: 5px;
-background-color: #11161f;
+background-color: #0e121adb;
 color: white;
 }
 .containery .log {
