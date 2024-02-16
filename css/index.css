@@ -73,6 +73,8 @@ margin-left: 20px;
   transition: .5s ease;
   background-color: #0f131b;
 border-right:1px solid #0f131b;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.85);
+
 
 }
 .overlayss {
@@ -109,7 +111,7 @@ max-height: 120px;
 
 .resize {
 height: 200px;
-border-radius: 2px;
+border-radius: 4px;
 opacity: .8;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.85);
 position: relative;
@@ -121,10 +123,11 @@ position: relative;
 .fade {
 max-height: 360px;
 min-height: 140px;
-opacity: .4;
+opacity: .9;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.85);
 position: relative;
   overflow: hidden;
+transform: scaleX(-1);
 } 
 .outline {
 
