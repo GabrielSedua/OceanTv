@@ -143,7 +143,7 @@ img {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: right;
   padding-bottom: 12rem;
   overflow: auto;
   scrollbar-width: none; /* For mozilla */
@@ -277,6 +277,7 @@ color: #08b3ca;
   }
   .header__container {
     height: calc(var(--header-height) + .5rem);
+    justify-content: right;
   }
   .header__search {
     width: 300px;
@@ -295,7 +296,7 @@ color: #08b3ca;
   }
   .nav {
     left: 0;
-    padding: 1.2rem 1rem 0;
+    padding: 1.2rem 1.5rem 0;
     width: 68px; /* Reduced navbar */
   }
   .nav__items {

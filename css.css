@@ -1,3 +1,8 @@
+form {
+text-align: right;
+}
+
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -107,6 +112,7 @@ border: 2px black solid;
 /* Style the search box */
 #mySearch {
   min-width: 10%;
+max-width: 80%;
   font-size: 16px;
   padding: 4px;
   border: 1px solid #09b2cb;
