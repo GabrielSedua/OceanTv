@@ -295,7 +295,7 @@ color: #08b3ca;
   }
   .nav {
     left: 0;
-    padding: 1.2rem 1.5rem 0;
+    padding: 1.2rem 1rem 0;
     width: 68px; /* Reduced navbar */
   }
   .nav__items {
