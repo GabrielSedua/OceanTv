@@ -144,7 +144,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 3rem;
+  padding-bottom: 12rem;
   overflow: auto;
   scrollbar-width: none; /* For mozilla */
 }
