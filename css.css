@@ -52,7 +52,8 @@ color: white;
 }
 .containery .log {
   position: absolute;
-  top: 55%;
+
+  top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -62,9 +63,8 @@ color: white;
   padding: 0px 3px;
   border: none;
   cursor: pointer;
-  
-max-height: 40px;
-max-width: 40px;
+ 
+max-width: 15%;
 }
 
 .containery .log:hover {
