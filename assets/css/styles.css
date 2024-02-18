@@ -6,9 +6,10 @@
   --header-height: 3.5rem;
   --nav-width: 219px;
 
-  /*========== Colors ==========*/
+  /*========== Colors ==========
+--first-color-light: #F4F0FA;*/
   --first-color: #6923D0;
-  --first-color-light: #F4F0FA;
+  --first-color-light: #111720e0;
   --title-color: #19181B;
   --text-color: #58555E;
   --text-color-light: #A5A1AA;
@@ -40,14 +41,16 @@
 /*========== BASE ==========*/
 *, ::before, ::after {
   box-sizing: border-box;
+
+
 }
 
 body {
 
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: #0e121a;
-  color: var(--text-color);
+background: #111720;
+ 
 }
 
 h3 {
@@ -174,6 +177,7 @@ img {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: var(--text-color-light);
+padding-top: 10px;
 }
 
 .nav__link {
@@ -263,10 +267,10 @@ color: #08b3ca;
     width: 70%;
   }
 }
-
+/* origionally  padding: 1rem 3rem 0 6rem; */
 @media screen and (min-width: 768px) {
   body {
-    padding: 1rem 3rem 0 6rem;
+    padding: 1rem 1rem 0 6rem;
   }
   .header {
     padding: 0 3rem 0 6rem;
