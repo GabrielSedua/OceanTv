@@ -111,9 +111,9 @@ max-height: 120px;
 
 .resize {
 height: 200px;
-border-radius: 4px;
+border-radius: 8px;
 opacity: .8;
-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.85);
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.85);
 position: relative;
   overflow: hidden;
 
@@ -217,9 +217,25 @@ div>img {
 }
 
 #main1 {
-    border: 0px solid gold;
     height: 210px; 
 }
+#main3 {
+    height: 210px; 
+}
+
+#main4 {
+    height: 210px; 
+}
+#main5 {
+    height: 210px; 
+}
+#main6 {
+    height: 210px; 
+}
+#main7 {
+    height: 210px; 
+}
+
 
 #main1>h3 {
     margin-left: 16px;
@@ -267,9 +283,6 @@ background-color: transparent; height: 1px; border: 0;
 }
 
 #main2>h3 {
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
 }
 
 #extraordinary_people>div>img {
@@ -502,6 +515,26 @@ position: sticky;
 text-align:center;
 position: relative;
 }
+/* start of banner section */
+#bannerSectiony1 {
+    width: auto;
+text-align:center;
+position: relative;
+}
+/* start of banner section */
+#bannerSectiony2 {
+    width: auto;
+text-align:center;
+position: relative;
+}
+/* start of banner section */
+#bannerSectiony3 {
+    width: auto;
+text-align:center;
+position: relative;
+}
+
+
 
 #bannerSectiony>img {
     width: 100%;
