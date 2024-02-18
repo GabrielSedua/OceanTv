@@ -4,7 +4,7 @@
 /*========== VARIABLES CSS ==========*/
 :root {
   --header-height: 3.5rem;
-  --nav-width: 219px;
+  --nav-width: 180px;
 
   /*========== Colors ==========
 --first-color-light: #F4F0FA;*/
@@ -268,7 +268,7 @@ color: #08b3ca;
   }
 }
 /* origionally  padding: 1rem 3rem 0 6rem; */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) {
   body {
     padding: 1rem 1rem 0 6rem;
   }

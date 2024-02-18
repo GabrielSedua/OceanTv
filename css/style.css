@@ -1,7 +1,7 @@
 /*   padding: 0px 50px;*/
 .container {
     margin-top: 52px;
-    padding: 0px 40px;
+    padding: 0px 10px;
 }
 
 /*   padding: 0px 50px;*/
@@ -87,7 +87,6 @@ li a {
 }
 ol>a>img {
     width: 52px;
-    padding-left: 24px;
 }
 
 li>a>img {
