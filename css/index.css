@@ -2,10 +2,18 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:0;
     padding: 0;
-color: #fff;
+color: white;
+text-align: left;
 
 }
-
+.background {
+background: #d0e0ff00;
+border: #26628a7a;
+border-width: 10px;
+}
+html{
+   width: 99%;
+}
 
 .bg_image_4 {
   background-colour: #266165e0;
@@ -34,7 +42,19 @@ margin-top: -43px;
 }
 .containers {
   position: relative;
-  width: 50%;
+  width: 100%;
+}
+.resized {
+    width: -webkit-fill-available;
+    height: 200px;
+    padding: 10px;
+    border-radius: 2px;
+    opacity: .9;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
 
 }
 .container:hover .overlays {
@@ -48,25 +68,53 @@ margin-top: -43px;
 
 }
 .text {
+color: white;
+    font-size: 12px;
+    position: relative;
+    top: 0%;
+    min-height: 60px;
+    max-width: 120px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: -webkit-fit-content;
+    margin-left: 10px;
 
-  color: white;
+
+}
+/*   color: white;
   font-size: 12px;
   position: relative;
-  top: 15%;
+  top: 0%;
 min-height: 90px;
-max-width: 50px;
+max-width: 90px;
   text-align: left;
-margin: 20px;
+margin-top: 10px;
 margin-right: -webkit-fit-content;
-margin-left: 20px;
-}
-/* #0a1a2b */
+margin-left: 10px; */
+
+
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: auto;
+  height: auto;
+  width: 140px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4e779be6;
+border:1px solid #0f131b;
+box-shadow: 7px 10px 3px 0px rgba(0, 0, 0, 0.85);
+    overflow: visible;
+border-radius: 5px;
+
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  left: auto;
   height: auto;
   width: -webkit-fit-content;
   opacity: 0;
@@ -74,9 +122,36 @@ margin-left: 20px;
   background-color: #0f131b;
 border-right:1px solid #0f131b;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.85);
-
+}
+.text2 {
+    font-size: 9px;
+    overflow: visible;
+    text-alight: center;
+    background: #273d50e6;
+    height: auto;
+    opacity: 1;
+    color: white;
+    overflow: visable;
 
 }
+/* Tablet:768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+ .text2 {
+   font-size: 7px; 
+  }
+}
+
+/* Mobile :320px. */
+@media (max-width: 767px) {
+  .text2 {
+   font-size: 6px;
+  }
+}
+.text-box {
+padding left: 100px;
+
+}
+
 .overlayss {
   position: absolute;
   bottom: 68px;
@@ -84,6 +159,9 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.85);
   opacity: 0.8;
 max-height: 120px;
   
+}
+div { 
+  overflow: visible;
 }
 
 }
@@ -105,29 +183,30 @@ max-height: 120px;
 
 .containers:hover .overlay {
   opacity: 0.9;
+
 }
 
 
 
 .resize {
+width: auto;
 height: 200px;
+padding:10px;
 border-radius: 2px;
-opacity: .8;
-box-shadow: 10px 0 5px -4px #0e121a;
+opacity: .9;
+text-align: center;
 position: relative;
   overflow: hidden;
 
 
 }
-
+/*box-shadow: -10px 8px 10px #0f1017c7;*/
 .fade {
-max-height: 360px;
-min-height: 140px;
-opacity: .9;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
+
+opacity: 0.8;
 position: relative;
   overflow: hidden;
-transform: scaleX(-1);
+border-radius: 20px;
 } 
 .outline {
 
@@ -162,7 +241,7 @@ FONT-SIZE: 50PX;
 /**/
 #mankindP{
     
-    color: #4b4b54;
+    color: black;
     font-size: 16px;
     margin-bottom: 20px;
     margin-top: -15px;
@@ -171,7 +250,8 @@ FONT-SIZE: 50PX;
     border: 0px solid white;
 }
 div>img {
-    border-radius: 20px;
+    border-radius: 100px 100px 0px 0px;
+text-align: center;
 
 }
 #watchEntireSeasons>div>img {
@@ -217,23 +297,61 @@ div>img {
 }
 
 #main1 {
-    height: 210px; 
+    height: 280px;
+text-align: center; 
+border-radius: 10px;
+background: #2a4757; 
+}
+#main9 {
+    height: 280px;
+text-align: center; 
+border-radius: 10px;
+background: #2a4757; 
+}
+#main2 {
+    height: 90px;
+text-align: center;
+background: #ffffff9c; 
+border-radius: 10px;
 }
 #main3 {
-    height: 210px; 
-}
+    
+    height: 280px;
+text-align: center; 
+border-radius: 10px;
+background: #2a4757; }
 
 #main4 {
-    height: 210px; 
+    
+    height: 280px;
+text-align: center; 
+border-radius: 10px;
+background: #2a4757; 
+
 }
 #main5 {
-    height: 210px; 
+  
+    height: 280px;
+text-align: center; 
+border-radius: 10px;
+background: #2a4757; 
+
 }
 #main6 {
-    height: 210px; 
+
+    height: 280px;
+text-align: center; 
+border-radius: 10px;
+background: #2a4757; 
+
 }
 #main7 {
-    height: 210px; 
+
+    height: 280px;
+text-align: center; 
+border-radius: 10px;
+background: #2a4757; 
+
 }
 
 

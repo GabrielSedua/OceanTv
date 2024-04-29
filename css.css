@@ -1,3 +1,5 @@
+
+
 form {
 text-align: right;
 }
@@ -12,13 +14,13 @@ text-align: right;
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #07a8bd1f; /* Set a background color */
-  color: #07a8bd; /* Text color */
+  color: #c9ecf1; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-padding-top: 2px;
+padding-top: 0px;
   padding-left: 6px;
 padding-right: 6px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 60px; /* Increase font size */
+  font-size: 40px; /* Increase font size */
 }
 
 #myBtn:hover {
@@ -117,19 +119,21 @@ max-width: 80%;
   padding: 4px;
   border: 1px solid #09b2cb;
   border-radius: 10px;
-
-background: #101318;
+color: black;
+background: #3a3840;
 }
 
 #myMenu li{
   display:none;
 }
 /* Style the navigation menu inside the left column */
+
+/*background-image: repeating-linear-gradient(90deg, rgb(18 6 18), rgb(95 94 94 / 10%) 1px, #000000 0px, #000000 2px);*/
 #myMenu {
   list-style-type: none;
-  padding: 0;
+    padding-bottom: 30px;
   margin: 10px;
-
+text-align: center;
 }
 
 #myMenu li a {
@@ -137,14 +141,14 @@ background: #101318;
   text-decoration: none;
   color: white;
   display: block;
-  max-width: 140px;
-max-height: 200px;
+    max-width: 160px;
+    max-height: 240px;
 margin: 20px;
 
 }
 
 #myMenu li a:hover {
-  background-color: #10151e;
+ background-color: #a9a9a9;
 
 
 }
