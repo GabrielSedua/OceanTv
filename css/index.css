@@ -72,7 +72,7 @@ color: white;
     font-size: 12px;
     position: relative;
     top: 0%;
-    min-height: 60px;
+    min-height: 40px;
     max-width: 120px;
     text-align: left;
     margin-top: 10px;
@@ -102,8 +102,8 @@ margin-left: 10px; */
   width: 140px;
   opacity: 0;
   transition: .5s ease;
-  background-color: #4e779be6;
-border:1px solid #0f131b;
+  background-color: #273d50e6;
+border:3px solid #0f131b;
 box-shadow: 7px 10px 3px 0px rgba(0, 0, 0, 0.85);
     overflow: visible;
 border-radius: 5px;
@@ -132,6 +132,8 @@ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.85);
     opacity: 1;
     color: white;
     overflow: visable;
+padding-left: 10px;
+    padding-right: 10px;
 
 }
 /* Tablet:768px. */
@@ -192,21 +194,25 @@ div {
 width: auto;
 height: 200px;
 padding:10px;
-border-radius: 2px;
+border-radius: 5px;
 opacity: .9;
 text-align: center;
 position: relative;
   overflow: hidden;
-
-
+border: 2px solid #131f28;
+        box-shadow: 5px 6px 10px 9px #0f1017c7;
 }
+
+
 /*box-shadow: -10px 8px 10px #0f1017c7;*/
 .fade {
 
-opacity: 0.8;
+opacity: 0.6;
 position: relative;
   overflow: hidden;
 border-radius: 20px;
+-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 } 
 .outline {
 
@@ -241,7 +247,7 @@ FONT-SIZE: 50PX;
 /**/
 #mankindP{
     
-    color: black;
+    color: grey;
     font-size: 16px;
     margin-bottom: 20px;
     margin-top: -15px;
@@ -300,60 +306,65 @@ text-align: center;
     height: 280px;
 text-align: center; 
 border-radius: 10px;
-background: #2a4757; 
+background: #011826;
+background-image: url("cartographer.png");  
 }
 #main9 {
     height: 280px;
 text-align: center; 
 border-radius: 10px;
-background: #2a4757; 
+background: #011826; background-image: url("cartographer.png"); 
 }
 #main2 {
     height: 90px;
 text-align: center;
-background: #ffffff9c; 
+background: #17262f; 
 border-radius: 10px;
+ 
 }
+
 #main3 {
     
     height: 280px;
 text-align: center; 
 border-radius: 10px;
-background: #2a4757; }
+background:#011826;
+background-image: url("cartographer.png");  }
+
 
 #main4 {
     
     height: 280px;
 text-align: center; 
 border-radius: 10px;
-background: #2a4757; 
-
+background:#011826; 
+background-image: url("cartographer.png"); 
 }
 #main5 {
   
     height: 280px;
 text-align: center; 
 border-radius: 10px;
-background: #2a4757; 
-
+background:#011826; 
+background-image: url("cartographer.png"); 
 }
 #main6 {
 
     height: 280px;
 text-align: center; 
 border-radius: 10px;
-background: #2a4757; 
-
+background:#011826; 
+background-image: url("cartographer.png"); 
 }
 #main7 {
 
     height: 280px;
 text-align: center; 
 border-radius: 10px;
-background: #2a4757; 
-
+background: #011826; 
+background-image: url("cartographer.png"); 
 }
-
+/*#2a4757*/
 
 #main1>h3 {
     margin-top: 4px;
