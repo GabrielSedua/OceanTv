@@ -132,7 +132,7 @@ background: #3a3840;
 #myMenu {
   list-style-type: none;
     padding-bottom: 30px;
-  margin: 10px;
+  margin: auto;
 text-align: center;
 }
 
