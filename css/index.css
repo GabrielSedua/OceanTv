@@ -3,7 +3,7 @@
     margin:0;
     padding: 0;
 color: white;
-text-align: center;
+text-align: left;
 
 
 }
@@ -310,12 +310,14 @@ text-align: center;
 border-radius: 10px;
 background: #011826;
 background-image: url("cartographer.png");  
+    opacity: .7;
 }
 #main9 {
     height: 280px;
 text-align: center; 
 border-radius: 10px;
 background: #011826; background-image: url("cartographer.png"); 
+   opacity: .7;
 }
 #main2 {
     height: 90px;
@@ -331,7 +333,8 @@ background: #011826; background-image: url("cartographer.png");
 text-align: center; 
 border-radius: 10px;
 background:#011826;
-background-image: url("cartographer.png");  }
+background-image: url("cartographer.png");
+   opacity: .7;  }
 
 
 #main4 {
@@ -341,6 +344,7 @@ text-align: center;
 border-radius: 10px;
 background:#011826; 
 background-image: url("cartographer.png"); 
+   opacity: .7;
 }
 #main5 {
   
@@ -349,6 +353,7 @@ text-align: center;
 border-radius: 10px;
 background:#011826; 
 background-image: url("cartographer.png"); 
+   opacity: .7;
 }
 #main6 {
 
@@ -357,6 +362,7 @@ text-align: center;
 border-radius: 10px;
 background:#011826; 
 background-image: url("cartographer.png"); 
+   opacity: .7;
 }
 #main7 {
 
@@ -365,6 +371,7 @@ text-align: center;
 border-radius: 10px;
 background: #011826; 
 background-image: url("cartographer.png"); 
+   opacity: .7;
 }
 /*#2a4757*/
 
