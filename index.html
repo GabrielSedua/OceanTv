@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html style=" background: #011826;
-    background-image: url(cartographer.png);"lang="en">
+<html lang="en" style="background:#111d24;">
 
 <head>
     <meta charset="UTF-8">
@@ -26,7 +25,7 @@
 <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
 </head>
 
-<body style="background: #0e1a2199;">
+<body>
 
     <!-- navigation part -->
 
@@ -181,12 +180,125 @@ $(function(){
 <div class="container">
   <br>
   <div id="bannerSectiony" class="containery">
+    <style>
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: Automatic;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Caption text */
+    .texts {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+      color: white;
 
 
 
+    }
 
-  <image class="fade" src="./src/a2.jpg"
-      alt="">
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 1s ease;
+    }
+
+    .active {
+      background-color: #1d2638;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 2s;
+    }
+
+    @keyframes fade {
+      from {opacity: .6}
+      to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .texts {font-size: 11px}
+    }
+    </style>
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="./src/bannerlara.jfif" style="width:100%">
+      <div class="texts">Lara Croft</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="./src/bannerinter.jfif" style="width:100% ">
+      <div class="texts">Interstellar</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="./src/banneraqua.jpg" style="width:100%">
+      <div class="texts">Aquaman</div>
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 6000); // Change image every 6 seconds
+    }
+    </script>
       <!-- <div class="bottom-left">Bottom Left</div>-->
       <!--   <div class="top-left">Top Left</div>-->
 
@@ -195,7 +307,7 @@ $(function(){
 
       <div class="row">
     <div class="col-md-12 text-center">
-      <h3 class="top-left animate-charcters"> OCEAN TV + </h3>
+      <h3 class="top-right animate-charcters"> OCEAN TV + </h3>
     </div>
     <div class="col-md-12 text-center">
       <h3 class="bottom-right animate-charcter">Welcome Gabriel </h3>
@@ -1878,9 +1990,9 @@ With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledor
     </div>
 <!-- end of most popular now -->
 <br>
-<br>
 
-<section id="main2" draggable=""class="bg_image_4">
+
+<section id="main2">
   <div>
     <p style="color: grey;text-align: left;"style="color: grey;">SCI-FI</p>
     <h1 style="color: grey;text-align: left;"style="color: grey;">Discover Everyday..</h1>
@@ -1904,7 +2016,7 @@ With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledor
 
 </div>
 <br>
-<br>
+
 <!-- start of watch entire seasons -->
 <div id="main9">
   <h3>Watch Entire Sequals</h3>
@@ -2309,7 +2421,7 @@ With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledor
 <br>
 
 <!-- end of major league baseball -->
-<div id="main2" class="content content_2">
+<div id="main2">
 
   <h1 style="color: grey;text-align: left;"style="color: grey;">Start Your Journey..</h1>
   <br>
@@ -2716,12 +2828,12 @@ With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledor
       </div>
     </a></div>
   </div>
-  <hr>
+  <br>
 </div>
 <!-- From Page to screen end -->
 <!-- Extraordinary people start -->
 <br>
-<div id="main2" class="content content_1">
+<div id="main2">
   <h1 style="color: grey;text-align: left;"style="color:grey;">Seek Out..</h1>
   <br>
   <p style="color: grey;text-align: left;" id="mankindP">Guardians of the Galaxy.</p>
@@ -3110,22 +3222,20 @@ With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledor
 
   </div>
   <hr>
-
+<br>
   <!-- end of kids & family -->
 </div>
+<div class="containers">
+<br>
 
-
-    <!-- bottom div end -->
-    <div class="container"id="main2">
-      <br>
-      <br><br>
-
-      <p class="centereds"style="color: grey;">Copyright-2024</p>
-      <img class="centered"
-                  src="./src/logo.png"
-                  alt="Ocean TV+"></img>
-    </div>
-    <br>
+<image class="fades imagebanner" src="./src/a2.jpg"
+    alt="">
+    <p class="centereds"style="color: black;">Copyright 2024</p>
+    <img class="centered"
+                src="./src/logo.png"
+                alt="Ocean TV+"></img>
+</div>
+<br>
 </section>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
