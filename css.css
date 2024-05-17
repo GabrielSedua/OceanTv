@@ -1,4 +1,6 @@
-
+.zoom {
+  zoom: 150%;
+}
 .imagebanner {
 max-width: 100%;
 }
