@@ -172,7 +172,7 @@ img {
 }
 
 .nav__list {
-  row-gap: 2.5rem;
+  row-gap: 0.5rem;
 }
 
 .nav__items {
