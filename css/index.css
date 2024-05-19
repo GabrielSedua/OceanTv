@@ -91,7 +91,7 @@ color: white;
     min-height: 40px;
     max-width: 120px;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: -webkit-fit-content;
     margin-left: 10px;
 
@@ -232,7 +232,7 @@ border-radius: 3px;
 
 /*box-shadow: -10px 8px 10px #0f1017c7;*/
 .fade {
-border: #106fa36b inset 1px;
+border: #111d24 solid 1px;
 opacity: 1;
 position: relative;
   overflow: hidden;
@@ -240,6 +240,7 @@ border-radius: 3px;
 
 -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
         mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+
 } 
 
 .outline {
@@ -346,9 +347,7 @@ background: #011826; background-image: url("cartographer.png");
    opacity: .7;
 border: #00000066 inset 1px;
 }
-#main2 {
-border: #7ac0e724 inset 1px;
-    height: 90px;
+#main2 {    height: 90px;
 text-align: center;
 background: #011826; 
 border-radius: 3px;
